@@ -43780,6 +43780,19 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-footer .u-text-1 {
     width: 340px;
   }
+	@media only screen and (max-width: 768px) {
+    .u-container-layout-1, .u-container-layout-2, .u-container-layout-3, .u-container-layout-4, .u-container-layout-5 {
+        text-align: left;
+        padding: 10px;
+    }
+    .u-group-1 {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .u-text-2, .u-text-6, .u-text-8, .u-text-10 {
+        text-align: left;
+    }
+}
 }
 
  /*begin-variables base-font-size*/ 
