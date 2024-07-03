@@ -4,15 +4,14 @@
  * Copyright 2014-2021 Froala Labs
  */
 .u-repeater.u-repeater-1 {
-    
-   padding: 20px; /* Можете да промените стойността според вашите нужди */
+    padding: 20px; /* Можете да промените стойността според вашите нужди */
     margin-top: 20px; /* Отстъп отгоре */
     margin-bottom: 20px; /* Отстъп отдолу */
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-
+    flex-direction: column; /* Това подрежда децата на елемента вертикално */
+    text-align: center; /* Центриране на текста */
 }
 
 .fr-clearfix::after {
