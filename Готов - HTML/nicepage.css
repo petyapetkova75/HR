@@ -5,8 +5,13 @@
  */
 .u-repeater.u-repeater-1 {
     
-    margin-top: 50px; 
-    margin-left: 50px;
+   padding: 20px; /* Можете да промените стойността според вашите нужди */
+    margin-top: 20px; /* Отстъп отгоре */
+    margin-bottom: 20px; /* Отстъп отдолу */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 
